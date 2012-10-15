@@ -11,7 +11,7 @@
 
   <title>Saint Louis University Libraries Newsletter</title>
   <meta name="description" content="" />
-  <meta name="keywords" content="Newsletter, SLU, Pius Library, Medical Center Library" />
+  <meta name="keywords" content="Newsletter, SLU, Pius Library, Medical Center Library, Law Library" />
 
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
   
@@ -38,11 +38,11 @@
 </head>
 
 <body>
-  <header>
+  <header> <!-- header -->
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <span class="social">
+          <span class="social"><!-- social media buttons -->
             <a href="#" target="_blank" title="RSS feed" class="embed">RSS Feed</a>
             <a href="#" target="_blank" title="Facebook" class="facebook">Facebook</a>
             <a href="#" target="_blank" title="twitter" class="twitter">twitter</a>
@@ -52,12 +52,12 @@
 
       <div class="row">
         <div class="eight columns">
-          <h1 class="logo">
+          <h1 class="logo"><!-- logo -->
             <a href="#"><img src="img/img_logo.png" alt="Saint Louis University Libraries Newsletter"></a>
           </h1>
         </div>
         <div class="three columns push_one omega">
-          <nav class="main-menu">
+          <nav class="main-menu"><!-- navigation -->
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="http://libraries.slu.edu">Libraries</a></li>
@@ -66,7 +66,7 @@
         </div>
       </div>
     </div>      
-  </header>
+  </header><!-- end header -->
 
   <div class="subHeader">
     <div class="container">
@@ -110,55 +110,65 @@
 
   <div class="container">
     <div class="row">
-      <div class="twelve column">
-        <img src="img/header_img.png" class="img-border">
-      </div>
-    </div>
-    <div class="row">
       <div class="twelve column wrap">
-        <section class="four columns sidebar">
-          <article class="alternate-bg spacing">
-            <h2 class="title fixie"></h2>
-            <p class="fixie"></p>
-          </article>
 
-          <article class="alternate-bg spacing">
-            <h2 class="title fixie"></h2>
-            <p class="fixie"></p>
-          </article>
-
-          <article class="alternate-bg spacing">
-            <h2 class="title fixie"></h2>
-            <p class="fixie"></p>
-          </article>
-        </section>
-
+        <!-- main article -->
         <section class="eight columns spacing">
           <article>
             <h2 class="title fixie"></h2><img src="http://placekitten.com/55/55" class="rounded-tb omega" style="float: right;">
             <p class="fixie"></p>
           </article>
 
-          <article>
-            <h2 class="title fixie"></h2><img src="http://placekitten.com/55/55" class="rounded-tb omega" style="float: right;">
-            <p class="fixie"></p>
-          </article>
-
-          <article>
-            <h2 class="title fixie"></h2><img src="http://placekitten.com/55/55" class="rounded-tb omega" style="float: right;">
-            <p class="fixie"></p>
-          </article>
-
-          <article>
-            <h2 class="title fixie"></h2><img src="http://placekitten.com/55/55" class="rounded-tb" style="float: right;">
-            <p class="fixie"></p>
-          </article>
+          <!-- end main article -->
 
         </section>
+
+        <!-- sidebar articles -->
+        <section class="four columns sidebar">
+          <article class="alternate-bg spacing">
+            <h2 class="title fixie"></h2>
+            <p class="fixie"></p>
+            <article class="drawertoggle">
+            <a href="#" class="toggle btn small" data-for=".drawer#below">Contact us</a>
+            <section class="drawer" id="below">
+              <div class="container">
+                <div class="row">
+                  <div class="twelve columns centered">
+                      <form action="" method="" data-form="validate">
+                        <dl class="field row">
+                          <dt class="text"><input type="text" placeholder="Name" required /></dt>
+                          <dd class="msg"><span class="caret"></span>Write your name.</dd>
+                        </dl>
+                        <dl class="field row">
+                          <dt class="text"><input type="email" placeholder="Email" required /></dt>
+                          <dd class="msg"><span class="caret"></span>Fill in a valid email.</dd>
+                        </dl>
+                        <dl class="field row">
+                          <dt class="textarea"><textarea placeholder="Submit a message" required></textarea></dt>
+                          <dd class="error msg"><span class="caret"></span>Write your message.</dd>
+                        </dl>
+                        <div class="row">
+                          <p class="btn submit"><input type="submit" value="Submit"></p>
+                        </div>
+                      </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </article>
+          </article>
+
+
+            
+
+        </section>
+        <!-- end sidebar articles -->
+
       </div>
   	 </div>
 
      <div class="row">
+      <!-- footer -->
         <div class="twelve column copyright">
           <p>Saint Louis University Libraries</p>
         </div>
