@@ -1,0 +1,90 @@
+a:hover {
+	color: #01193b;
+}
+
+a {
+	color: #01193b;
+	text-decoration: underline;
+	outline: 0;
+	line-height: inherit;
+}
+
+header {
+	font-family: "Source Sans Pro", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.main-menu {
+	text-align: center;
+	line-height: 14em;
+	color: #fff;
+	float:right;
+}
+.main-menu li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 0px;
+}
+
+.main-menu li a {
+	text-decoration: none;
+	background: url('../img/menu-up.png') no-repeat top left;
+	float:left;
+	margin: 0;
+	height: 98px;
+	width: 106px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #fff;
+}
+
+.main-menu li a:hover {
+	background: url('../img/menu-down.png') no-repeat left top;
+}
+
+
+.SLU {
+	text-align: center;
+	padding-top:15px;
+}
+
+.title {
+	font-family: Georgia, Verdana, serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #01193b;
+	padding: 10px 10px 10px 0px;
+}
+.title a:link, a:visited {
+	font: inherit;
+}
+
+.title a:hover, a:focus {
+	text-decoration: underline;
+}
+
+.spacing {
+	padding: 10px 20px 10px 20px;
+	
+}
+ 
+  
+ 
+ /* ==|== media queries ======================================================
+    PLACEHOLDER Media Queries for Responsive Design.
+    These override the primary ('mobile first') styles
+    Modify as content requires.
+    ========================================================================== */
+ 
+ @media only screen and (min-width: 480px) {
+   /* Style adjustments for viewports 480px and over go here */
+ 
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   /* Style adjustments for viewports 768px and over go here */
+ 
+ }
